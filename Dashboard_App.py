@@ -5,6 +5,8 @@ import plotly.graph_objects as go
 import streamlit as st
 from plotly.subplots import make_subplots
 
+import Dashboard_Functions as functions
+
 # Load the dataset once
 DATA_FILE = "finland.csv"
 
